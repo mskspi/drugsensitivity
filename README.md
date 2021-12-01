@@ -9,8 +9,11 @@ For clustering of cell lines, the gene expression profiles for 915 cell lines we
 A random forest model was built on each paired cluster of cell lines and drugs to predict drug responses in log(IC50) values. <br /> <br />
 
 
-## Data
-1. Supplement.xlsx: Detailed information of cell lines and drugs as well as clustering results are shown. 
-2. Supplement_Figures.pdf: Supplemental figures
-3. Cell_lines_WD.xlsx: Wasserstein distance matrix of cell lines
-4. Drugs_WD.xlsx: Wasserstein distance matrix of drugs
+## Code & Data
+1. Clustering_cell_lines.m: Clustering cell lines
+  a. cell_line_data.mat: Information of cell lines
+  b. distance_matrix_cell_lines.mat: Wasserstein distance in gene networks
+2. Clustreing_drugs.m: Clustering drugs
+  a. drug_data.mat: Information of drugs
+  b. distance_matrix_drugs.mat: Wasserstein distance in drug feature networks
+
