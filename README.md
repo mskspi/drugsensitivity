@@ -10,10 +10,10 @@ A random forest model was built on each paired cluster of cell lines and drugs t
 
 
 ## Code & Data
-1. Clustering_cell_lines.m: Clustering cell lines
-  a. cell_line_data.mat: Information of cell lines
-  b. distance_matrix_cell_lines.mat: Wasserstein distance in gene networks
-2. Clustreing_drugs.m: Clustering drugs
-  a. drug_data.mat: Information of drugs
+1. Clustering_cell_lines.m: Clustering cell lines <br />
+  a. cell_line_data.mat: Information of cell lines <br />
+  b. distance_matrix_cell_lines.mat: Wasserstein distance in gene networks <br />
+2. Clustreing_drugs.m: Clustering drugs <br />
+  a. drug_data.mat: Information of drugs <br />
   b. distance_matrix_drugs.mat: Wasserstein distance in drug feature networks
 
